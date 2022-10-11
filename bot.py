@@ -28,7 +28,7 @@ async def start(event):
   await event.reply("**Ben Tagger Bot**, Grup veya kanaldaki neredeyse tüm üyelerden bahsedebilirim ★\nDaha fazla bilgi için **/help**'i tıklayın.",
                     buttons=(
                       [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/turkctagbot?startgroup=a'),
-                      Button.url('📣 Geliştirici', 'https://t.me/turkcbot')]
+                      Button.url('📣 Resmi Grup', 'https://t.me/SWXChatt')]
                     ),
                     link_preview=False
                    )
@@ -38,7 +38,7 @@ async def help(event):
   await event.reply(helptext,
                     buttons=(
                       [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/turkctagbot?startgroup=a'),
-                      Button.url('📣 Geliştirici', 'https://t.me/turkcbot')]
+                      Button.url('📣 Resmi Grup', 'https://t.me/SWXChatt')]
                     ),
                     link_preview=False
                    )
@@ -80,6 +80,6 @@ async def mentionall(event):
         usrnum = 0
         usrtxt = ""
 
-print(">> Bot çalıyor merak etme 🚀 @drmehmetaktass bilgi alabilirsin <<")
+print(">> Bot çalıyor merak etme 🚀 @SwoxyComeBack bilgi alabilirsin <<")
 client.run_until_disconnected()
  
